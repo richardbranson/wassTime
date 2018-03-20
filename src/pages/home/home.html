@@ -4,14 +4,26 @@
     <ion-title>WASSTIME</ion-title>
   </ion-navbar>
 </ion-header>
-
 <ion-content padding>
+  <ion-grid>
+  <ion-row>
+    <ion-col>
+      <button ion-button full icon-start>
+        <ion-icon ios="ios-add-circle" md="md-add-circle" is-active="false"></ion-icon>
+        ADD TIME
+      </button>
+    </ion-col>
+    <ion-col>
+      <button ion-button full> ADD BRAND</button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
   <p>
-    <button ion-button block outline icon-start>
+  <!--   <button ion-button block outline icon-start>
       <ion-icon ios="ios-add-circle" md="md-add-circle" is-active="false"></ion-icon>
       ADD TIME ENTRY
     </button>
-  </p>
+  </p> -->
   <p>
     <button ion-button block icon-start color="nba">
       <ion-icon ios="ios-timer" md="md-timer" is-active="false"></ion-icon>
@@ -49,12 +61,12 @@
     </button>
   </p>
 
-  <p>
+  <!-- <p>
     <button ion-button block icon-start>
       <ion-icon ios="ios-timer" md="md-timer" is-active="false"></ion-icon>
       ADD ANOTHER BRAND
     </button>
-  </p>
+  </p> -->
   
 
 </ion-content>
